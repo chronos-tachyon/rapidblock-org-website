@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The RapidBlock Project — Home</title>
+    <link rel="canonical" href="https://rapidblock.org/">
+
+    <meta name="author" content="The RapidBlock Project Owners">
+    <meta name="description" content="Home of the RapidBlock Project for sharing blocklists of bad actors on the Fediverse.">
+    <meta itemprop="name" content="The RapidBlock Project">
+    <meta itemprop="description" content="Home of the RapidBlock Project for sharing blocklists of bad actors on the Fediverse.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The RapidBlock Project">
+    <meta property="og:title" content="The RapidBlock Project — Home">
+    <meta property="og:description" content="Home of the RapidBlock Project for sharing blocklists of bad actors on the Fediverse.">
+    <meta property="og:url" content="https://rapidblock.org/">
+    <meta property="og:image" content="https://rapidblock.org/img/256x256.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+    <meta property="og:image:alt" content="Proposed logo for the Fediverse">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@dlkingauthor">
+    <meta name="twitter:title" content="The RapidBlock Project — Home">
+    <meta name="twitter:description" content="Home of the RapidBlock Project for sharing blocklists of bad actors on the Fediverse.">
+    <meta name="twitter:image" content="https://rapidblock.org/img/256x256.png">
+    <meta name="twitter:image:alt" content="Proposed logo for the Fediverse">
+
+    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#222222" media="(prefers-color-scheme: dark)">
+    <meta name="msapplication-navbutton-color" content="#222222">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#222222">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/img/48x48.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/img/64x64.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/96x96.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="/img/120x120.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="128x128" href="/img/128x128.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="/img/152x152.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="160x160" href="/img/160x160.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="/img/167x167.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/img/180x180.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="/img/192x192.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="256x256" href="/img/256x256.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="384x384" href="/img/384x384.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="/img/512x512.png">
+    <!-- link rel="mask-icon" type="image/svg+xml" color="#5bbad5" href="/img/mask.svg" -->
+
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/roboto.css">
+    <link rel="stylesheet" type="text/css" href="/css/hack.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <link rel="me" type="text/html" href="https://social.rapidblock.org/@rapidblock">
+  </head>
+  <body id="top">
+    <header id="header">
+      <h1 id="header-headline">The RapidBlock Project</h1>
+      <p id="header-logo" aria-hidden="true">
+        <!-- https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg -->
+        <img src="/img/fediverse.svg" alt="Logo for the Fediverse">
+      </p>
+      <p id="header-social">
+        <a rel="me" href="https://social.rapidblock.org/@rapidblock">@rapidblock@rapidblock.org</a>
+      </p>
+    </header>
+    <main id="main">
+      <section id="sec-about">
+        <h2><a href="#sec-about">About The RapidBlock Project</a></h2>
+        <p>
+        The RapidBlock Project is a grassroots initiative to make Fediverse
+        domain blocking more effective through collective action.
+        </p>
+        <p>
+        Moderation on the Fediverse is unevenly distributed.  Some instance
+        admins devotedly follow the
+        <code aria-label="FediBlock">#FediBlock</code>
+        hashtag, blocking abusive servers within hours of their first
+        appearance on the network.  Others wait until their own users file a
+        report.  Still others do nothing at all.
+        </p>
+        <p>
+        This uneven distribution of moderation allows abusive instances to
+        do significant psychological harm.  Abusive instances are a
+        fast-moving target; setting up a new Mastodon instance takes only an
+        hour or two, as does resetting an instance to give it a new domain
+        name.  This gives abusers a substantial time window in which there are
+        a lot of available victims to target.
+        </p>
+        <p>
+        Some people have suggested algorithmic alternatives, whether something
+        as sophisticated as modern AI/ML techniques, or something as simple as
+        auto-blocking based on surveys of popular user-level or instance-level
+        domain blocks.  However, such approaches have frequently led to
+        hard-to-find but easy-to-abuse loopholes for harassers to evade such
+        auto-bans, or even to turn auto-ban algorithms against the “good
+        guys”.  I don't know about other Fediverse projects, but part of the
+        point of Mastodon is to reject the modern itch to surrender all
+        control to algorithms and leave ourselves at the mercy of some
+        software developer's poorly-debugged fever dream.
+        </p>
+        <p>
+        The RapidBlock Project is something different: humans are in the loop
+        at every step of the decision-making process, and the only thing that
+        is automated is the actual propagation of the decisions.  Moderation
+        is <strong>hard</strong>, especially <strong>good</strong> moderation.
+        Moderation is a full-time job, and many Fediverse admins aren't taking
+        up that mantle of responsibility.  We are trying to build a
+        <em>central</em> moderation team with a clear, published rationale for
+        our blocking criteria and a clear dispute process for remediating
+        mistaken blocks.
+        </p>
+        <p>
+        But a central moderation council would be toothless without
+        solidarity.  Solidarity, for those not versed in labor organization,
+        is the active choice to act together as a unified front, rather than
+        to try and negotiate one-on-one, because we know that while a
+        <em>few</em> might be able to negotiate a better deal for
+        <em>themselves</em>, it will only be the ones in the most privileged
+        or nepotistic positions who manage it, and the majority of individuals
+        will end up worse off.
+        </p>
+        <p>
+        In the RapidBlock context, solidarity means this: by standing alongside
+        the RapidBlock Project's moderation decisions, you as an admin are
+        forcing abusers and harassers to treat you with more respect, because
+        they will be forced to acknowledge that losing <em>you</em> means
+        losing <em>everyone</em> that they want to hurt, even the people who
+        they haven't gotten around to hurting yet.
+        </p>
+      </section>
+      <section id="sec-files">
+        <h2><a href="#sec-files">Files</a></h2>
+        <dl>
+          <dt><a href="blocklist.json">blocklist.json</a></dt>
+          <dd>
+            The most recently generated export of the RapidBlock official
+            blocklist, in <a href="/spec/v1/">RapidBlock v1 JSON format</a>.
+          </dd>
+          <dt><a href="blocklist.json.sig">blocklist.json.sig</a></dt>
+          <dd>
+            A cryptographic Ed25519 signature for <code>blocklist.json</code>.
+          </dd>
+          <dt>
+            <a href="blocked_domains.csv">blocked_domains.csv</a>
+            [<a href="blocked_domains.txt">plain text</a>]
+          </dt>
+          <dd>
+            The most recently generated export of the RapidBlock official
+            blocklist, in Mastodon per-user “blocked domains list” import CSV
+            format.
+          </dd>
+          <dt><a href="blocked_domains.csv.sig">blocked_domains.csv.sig</a></dt>
+          <dd>
+            A cryptographic Ed25519 signature for <code>blocked_domains.csv</code>.
+          </dd>
+          <dt><a href="rapidblock.pub">rapidblock.pub</a></dt>
+          <dd>
+            The public key for verifying our Ed25519 signatures.
+          </dd>
+        </dl>
+      </section>
+      <section id="sec-extlinks">
+        <h2><a href="#sec-extlinks">External links</a></h2>
+        <dl>
+          <dt><a href="https://github.com/chronos-tachyon/rapidblock/">github.com/chronos-tachyon/rapidblock</a></dt>
+          <dd>
+            Linux command line tool for Mastodon instance admins to
+            automatically import RapidBlock's official blocklist into their
+            instance's database.
+          </dd>
+          <dt><a href="https://social.rapidblock.org/@rapidblock">@rapidblock@rapidblock.org</a></dt>
+          <dd>
+            Mastodon ActivityPub feed for announcements.
+          </dd>
+          <dt><a href="https://rapidblock.groups.io/g/announce">rapidblock.groups.io/g/announce</a></dt>
+          <dd>
+            Public e-mail mailing list for announcements.
+          </dd>
+          <dt><a href="https://rapidblock.groups.io/g/public">rapidblock.groups.io/g/public</a></dt>
+          <dd>
+            Public e-mail mailing list for discussions, including both the
+            suggestions of new blocks and the reversals of mistaken or
+            remediated blocks.
+          </dd>
+        </dl>
+      </section>
+      <section id="sec-principles">
+        <h2><a href="#sec-principles">Statement of Principles</a></h2>
+        <section id="sec-principles-diversity">
+          <h3><a href="#sec-principles-diversity">Diversity</a></h3>
+          <p>
+            Diversity is much, much more than just representation of, and
+            participation by, minority voices.  Diversity is resilience to
+            disaster.  Diversity is how evolution safeguards against
+            extinction.  Not “diversity of thought”: diversity of genetics,
+            diversity of experiences and backgrounds, diversity of creativity
+            and ideas, diversity of strategies and life styles.  These are
+            where the resilience of human society comes from, our ability to
+            survive and succeed in the face of the unexpected.
+          </p>
+          <p>
+            The opposite of diversity is eugenics: the idea that there is one
+            “correct” genetic template, one “correct” race, one “correct”
+            gender, one “correct” sexuality, one “correct” set of life
+            experiences.  Eugenics sees the natural variation of evolution as
+            a <em>disease</em> to be <em>cured</em>.  Eugenics says that there
+            is one objectively “best” way to live your life, and anyone who is
+            differs from it — in any way — is inferior and does not need to be
+            listened to.  It rejects the fundamental truth that evolution is a
+            game of rock-paper-scissors, that sometimes A beats B, B beats C,
+            and C beats A.  “Merit” is context-sensitive, not an objectively
+            true thing that can be measured for all situations simultaenously.
+          </p>
+        </section>
+        <section id="sec-principles-consent">
+          <h3><a href="#sec-principles-consent">Consent</a></h3>
+          <p>
+            Consent is about fairness, and about making sure that everyone's
+            voice is heard.  Consent is the idea that it's not okay for one
+            child to suffer in Omelas for the sake of the happiness of
+            everyone else.
+          </p>
+          <p>
+            Democracy is not the same thing as consent.  Democracy can be a
+            tool of consent, but consent requires that the people who would be
+            hurt by a decision have a louder voice than the people who would
+            benefit.  The goal of consent is to steer our world into a future
+            where everyone finds the current state of affairs acceptable, even
+            if each individual has a different state of affairs which they
+            would prefer more.  Winner-take-all democracy lacks consent.
+          </p>
+          <p>
+            There's a semi-joke I've heard from Chinese people about the
+            process for picking a restaurant in Chinese culture: you pick the
+            restaurant that everybody hates, so that everyone is equally
+            unhappy, because it would be unfair to pick a restaurant that
+            <em>some</em> people like but <em>other</em> people hate.  That's
+            consent.
+          </p>
+        </section>
+        <section id="sec-principles-safety">
+          <h3><a href="#sec-principles-safety">Safety</a></h3>
+          <p>
+            Safety is more than just safety from physical injury.  Safety
+            means that you have the tools and information available to you to
+            adapt to the ever-changing world.  Safety means that you feel in
+            control of your own life.  It is <strong>never</strong> okay to
+            sacrifice one person's safety for that of another, unless it is
+            the voluntary choice of the person who is giving up their safety
+            to protect another.
+          </p>
+          <p>
+            Safety is intimately connected to both diversity and consent.
+            Safety promotes diversity, and therefore resilience to the
+            unexpected.  Safety and consent feed upon each other in a virtuous
+            cycle: people who feel safe generally are better at respecting the
+            consent of others, and people who respect the consent of others
+            help them to feel safe.
+          </p>
+        </section>
+      </section>
+      <section id="sec-policy">
+        <h2><a href="#sec-policy">Moderation Policy</a></h2>
+        <p>
+          Nota bene: all moderation criteria are subject to human judgement
+          calls.  There is no such thing as objective moderation; even a
+          complete lack of moderation is not truly objective because it
+          promotes violent voices over peaceful ones.
+        </p>
+        <section id="sec-policy-harassment">
+          <h3><a href="#sec-policy-harassment">Harassment</a></h3>
+          <p>
+            Targeted harassment is strictly prohibited.  One person
+            disagreeing with one other person is not harassment, but a dogpile
+            of people disagreeing with one person might be.  Insulting or
+            verbally abusing someone in your first interaction with them might
+            constitute harassment.  Threatening someone's life, physical
+            safety, or job safety is usually harassment, and threatening
+            someone's family or loved ones with the same is almost certainly
+            harassment.  Persistently arguing with someone after they ask you
+            to stop is harassment, if they are mentioned or DMed.
+          </p>
+          <p>
+            As a general rule of thumb, we assume that any Fediverse instance
+            that advertises itself as favoring “free speech” permits
+            harassment.
+          </p>
+        </section>
+        <section id="sec-policy-nationalism">
+          <h3><a href="#sec-policy-nationalism">Nationalism</a></h3>
+          <p>
+            Nationalism is the vacuously false belief that people from some
+            countries are superior to people from other countries, regardless
+            of their knowledge, skills, and behavior toward others.  Like
+            racism and sexism (listed below), nationalism is best understood
+            as a desire by an insecure person to feel superior to
+            <em>someone</em>, to have someone they are “permitted” by society
+            to boss around.  It can be seen as an expression of desire to
+            violate consent, and it frequently overlaps with racism and
+            eugenics.
+          </p>
+        </section>
+        <section id="sec-policy-racism">
+          <h3><a href="#sec-policy-racism">Racism</a></h3>
+          <p>
+            Racism, often in the form of so-called “white supremacy” or “white
+            nationalism”, is the vacuously false belief that some races,
+            ethnicities, castes, or skin tones are superior to others by
+            virtue of their birth.  Advocacy for racism or racist policies is
+            immediately suspect.
+          </p>
+          <p>
+            Like nationalism (above) and misogyny (below), racism is
+            frequently rooted in a desire by insecure people to feel superior
+            to <em>someone</em>, to have someone they are “permitted” by
+            society to boss around.  However, in contrast to non-racist
+            nationalism (rare), racism usually has a clear eugenic component.
+          </p>
+          <p>
+            European-style classism, which is commonly found in Europe's
+            current and former colonies, often falls under this aegis.  We
+            consider something “racist” for moderation purposes if one person
+            is considered inherently superior over another based on who they
+            are, or aren't, related to.  Financial and social success within
+            families is better explained by nepotism than by genetics.
+          </p>
+          <p>
+            Presently there is one subcategory of racism that we tag:
+            antisemitism. Other racism subcategory tags, such as colorism and
+            casteism, may be added in the future.
+          </p>
+        </section>
+        <section id="sec-policy-antisemitism">
+          <h3><a href="#sec-policy-antisemitism">Antisemitism</a></h3>
+          <p>
+            Antisemitism frequently goes hand-in-hand with “white supremacy”
+            and is a particularly virulent form of racism that targets Jewish
+            or other Semitic and Levantine peoples for their ethnicity and
+            real-or-supposed genetic traits.
+          </p>
+        </section>
+        <section id="sec-policy-misogyny">
+          <h3><a href="#sec-policy-misogyny">Misogyny</a></h3>
+          <p>
+            Misogyny is the vacuously false belief that men are superior to
+            women.  It often looks very similar to racism, queerphobia, and
+            eugenics, despite the clear contradiction that the human race
+            could not survive without both men and women.  Similarly to
+            nationalism (above), this is best understood as a desire by
+            insecure men to feel superior to <em>someone</em>, to have someone
+            they are “permitted” by society to boss around.
+          </p>
+          <p>
+            There is a major misogyny streak in the eugenics movement, where
+            people who believe in eugenics — especially those who accept the
+            racist and antisemitic “Great Replacement” lie — also believe that
+            they know what (those whom they consider) women should be doing
+            with their bodies, better than the body owners do.  This is a big
+            component of their advocacy against abortion, against birth
+            control (both hormonal and barrier), against divorce, and in favor
+            of pedophilia/ephebophilia and child brides.  Their goal is to
+            take away the power to say no — to abrogate consent.
+          </p>
+        </section>
+        <section id="sec-policy-queerphobia">
+          <h3><a href="#sec-policy-queerphobia">Queerphobia</a></h3>
+          <p>
+            Queerphobia is an umbrella term for hatred of LGBTQIA+ people.
+            The proximate cause of this hatred is often their lack of interest
+            in procreation, but it ultimately is an intersection of eugenics
+            and misogyny, very much tied into the racist and antisemitic
+            “Great Replacement” lie.  Queerphobia exists for the same reasons
+            that misogyny exists.
+          </p>
+          <p>
+            Subtypes of queerphobia are not currently tagged, but homophobia,
+            biphobia, aphobia, transphobia, enbyphobia, and transmedicalism
+            are some subtypes that we recognize as harmful.
+          </p>
+        </section>
+        <section id="sec-policy-ableism">
+          <h3><a href="#sec-policy-ableism">Ableism</a></h3>
+          <p>
+            Ableism is hatred for disabled people.  A common pattern is for
+            ableists to be contrite about harming people with disabilities
+            acquired during adulthood due to certain types of accidents, such
+            as paraplegia due to an automobile or motorcycle accident, but to
+            express great contempt for people with disabilities that are
+            genetic or that are tied to a way of life that the ableist hates.
+            As such, the connection between ableism and eugenics is clear.
+          </p>
+        </section>
+        <section id="sec-policy-fraud">
+          <h3><a href="#sec-policy-fraud">Fraud</a></h3>
+          <p>
+            Fraud is any attempt to deceive or trick people into an action
+            that they would otherwise not take, by giving them false or
+            misleading information. Our moderation team is most heavily
+            focused on financial and investment fraud because it is one of the
+            most common and most impactful types of fraud.  Fraud is, by
+            definition, a violation of consent.
+          </p>
+        </section>
+        <section id="sec-policy-privacy">
+          <h3><a href="#sec-policy-privacy">Privacy</a></h3>
+          <p>
+            A violation of privacy is a direct violation of consent.  Doxxing
+            of one's physical address or unlisted/hidden contact information,
+            usually for the purpose of harassment, can be a privacy violation.
+            So can scraping or collection of public content in ways that the
+            creator or curator of that content did not intend.  Automatic
+            scraping of content for the purposes of displaying it in public is
+            a privacy violation, especially if it is mandatory or opt-out
+            (sometimes euphemistically called “auto-opt-in” by violators).
+          </p>
+        </section>
+        <section id="sec-policy-spam">
+          <h3><a href="#sec-policy-spam">Spam</a></h3>
+          <p>
+            Spam is any unsolicited action — including hashtag spam, DM spam,
+            and follow spam — that affects one or more people who have not
+            expressed or implied an interest in seeing it.  Spam is a fuzzy
+            category, but the key is that spam is targeted at an audience, not
+            at an individual, and there is no particular reason to believe
+            that the audience being targeted has any interest in seeing the
+            spam.  Thus, spam is a violation of consent.
+          </p>
+        </section>
+        <section id="sec-policy-malware">
+          <h3><a href="#sec-policy-malware">Malware</a></h3>
+          <p>
+            Malware is software that performs activities not wanted by the
+            person whose computer the malware is running on.  Older forms of
+            malware, such as viruses and keyloggers delivered via drive-by
+            downloads, are well known to anyone older than a certain age, and
+            these are still in use today.  One of the newer forms of malware
+            is cryptocurrency mining, often done in web browsers using
+            JavaScript or WebAssembly.  Malware is, of course, a violation of
+            consent.
+          </p>
+        </section>
+        <section id="sec-policy-csam">
+          <h3><a href="#sec-policy-csam">Child Sexual Abuse Material (CSAM)</a></h3>
+          <p>
+            CSAM, commonly known as “child pornography”, is any media
+            recording a real person who is too young to consent to sex with an
+            adult, in any situation where there the primary reason for the
+            recording to exist is to sexually titillate an adult who is
+            attracted to the child.
+          </p>
+          <p>
+            Controversially, we also extend this to “loli” art — short for
+            “Lolita”, after the titular character in Vladimir Nabokov's novel
+            from the first-person perspective of a pedophile with narcissistic
+            tendencies — and other visual and aural depictions of underage
+            characters in sexual situations or situations that primarily exist
+            to titillate an adult audience.  “Loli” is legal in the United
+            States, but the Fediverse is world-wide, and this material is
+            extremely illegal in many countries.  Many server admins do not
+            consent to have this material mirrored to their servers, and
+            “loli” fans have historically been bad at compartmentalizing their
+            content.
+          </p>
+          <p>
+            This policy does not extend to the case of written fiction.
+            Fiction, especially fanfiction, can serve as a useful outlet for
+            victims of CSA to work through their feelings and process what was
+            done to them.  This includes sexually explicit writing about
+            underage characters.  However, such content must be clearly
+            tagged, and should ideally be hosted off-site, e.g. on
+            <a href="https://archiveofourown.org/">AO3</a>,
+            and not as part of the Fediverse itself.
+          </p>
+          <p>
+            We do not currently tag bestiality with real animals, or
+            depictions of bestiality, but this is primarily because such
+            content is uncommon and — to be quite honest — people who are
+            into bestiality are better at compartmentalizing it rather than
+            forcing other people to look at it.  We will create a similar
+            policy if the need arises.
+          </p>
+          <p>
+            For the moment, we do not generally prohibit any “furry” content,
+            i.e.  content depicting fictional animal-like characters with full
+            human-level sapience, although any position in either direction on
+            this matter will be inherently controversial.  This currently
+            extends to not prohibiting the depiction of characters that would
+            be underage by human standards, but we may need to revisit that
+            standpoint if such content escapes containment and reaches the
+            broader network.  Again, consent.  Use CWs and create alt
+            accounts on instances dedicated to that kind of content if it's
+            escaping containment, or we will have to block you.
+          </p>
+        </section>
+      </section>
+    </main>
+    <aside class="signup">
+      <form action="https://rapidblock.groups.io/g/public/signup?u=5717487555401648473" method="post" target="_blank">
+        <div class="formdiv">
+          <label class="label" for="signup_email_1">
+            <span class="message">Subscribe to our group:</span>
+            <span class="list">public@rapidblock.groups.io</span>
+          </label>
+          <input id="signup_email_1" class="email" type="email" name="email" value="" placeholder="email address" required>
+          <input class="antispam" type="text" name="b_5717487555401648473" tabindex="-1" value="" aria-hidden="true">
+          <div class="linkdiv">
+            <a class="link" href="https://rapidblock.groups.io/g/public/topics" target="_blank">View Archives</a>
+          </div>
+          <input class="button" type="submit" name="subscribe" value="Subscribe">
+        </div>
+      </form>
+    </aside>
+    <footer id="footer">
+      <div id="copyright">
+        <span id="copyright-symbol">&copy;</span>
+        <span id="copyright-year">2022</span>
+        <span id="copyright-holder">The RapidBlock Project Owners</span>
+      </div>
+      <div id="back-to-top">
+        <a href="#top">↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

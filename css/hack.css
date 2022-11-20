@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Hack';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Hack'),
+    local('Hack-Regular'),
+    url('/font/Hack-Regular.woff2') format('woff2'),
+    url('/font/Hack-Regular.woff') format('woff'),
+    url('/font/Hack-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hack';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Hack Bold'),
+    local('Hack-Bold'),
+    url('/font/Hack-Bold.woff2') format('woff2'),
+    url('/font/Hack-Bold.woff') format('woff'),
+    url('/font/Hack-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hack';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local('Hack Italic'),
+    local('Hack-Italic'),
+    url('/font/Hack-Italic.woff2') format('woff2'),
+    url('/font/Hack-Italic.woff') format('woff'),
+    url('/font/Hack-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hack';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local('Hack Bold Italic'),
+    local('Hack-BoldItalic'),
+    url('/font/Hack-BoldItalic.woff2') format('woff2'),
+    url('/font/Hack-BoldItalic.woff') format('woff'),
+    url('/font/Hack-BoldItalic.ttf') format('truetype');
+}

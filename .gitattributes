@@ -1,0 +1,15 @@
+# vim:set ts=8 sts=8 sw=8 noet:
+
+*.html	text=auto diff=html
+*.css	text=auto diff=css
+*.js	text=auto
+*.svg	text=auto
+*.webp	-text -diff
+*.png	-text -diff
+*.gif	-text -diff
+*.jpg	-text -diff
+*.jpeg	-text -diff
+*.ttf	-text -diff
+*.otf	-text -diff
+*.woff	-text -diff
+*.woff2	-text -diff

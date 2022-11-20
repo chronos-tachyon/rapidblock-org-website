@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src:
+    local('Roboto Thin'),
+    local('Roboto-Thin'),
+    url(/font/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Roboto'),
+    local('Roboto-Regular'),
+    url(/font/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Roboto Bold'),
+    local('Roboto-Bold'),
+    url(/font/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src:
+    local('Roboto Thin Italic'),
+    local('Roboto-ThinItalic'),
+    url(/font/Roboto-ThinItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local('Roboto Italic'),
+    local('Roboto-Italic'),
+    url(/font/Roboto-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local('Roboto Bold Italic'),
+    local('Roboto-BoldItalic'),
+    url(/font/Roboto-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 100;
+  src:
+    local('Roboto Mono Thin'),
+    local('RobotoMono-Thin'),
+    url(/font/RobotoMono-Thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Roboto Mono'),
+    local('RobotoMono-Regular'),
+    url(/font/RobotoMono-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Roboto Mono Bold'),
+    local('RobotoMono-Bold'),
+    url(/font/RobotoMono-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 100;
+  src:
+    local('Roboto Mono Thin Italic'),
+    local('RobotoMono-ThinItalic'),
+    url(/font/RobotoMono-ThinItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local('Roboto Mono Italic'),
+    local('RobotoMono-Italic'),
+    url(/font/RobotoMono-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local('Roboto Mono Bold Italic'),
+    local('RobotoMono-BoldItalic'),
+    url(/font/RobotoMono-BoldItalic.ttf) format('truetype');
+}
