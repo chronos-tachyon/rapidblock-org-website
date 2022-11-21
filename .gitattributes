@@ -4,12 +4,12 @@
 *.css	text=auto diff=css
 *.js	text=auto
 *.svg	text=auto
-*.webp	-text -diff
-*.png	-text -diff
-*.gif	-text -diff
-*.jpg	-text -diff
-*.jpeg	-text -diff
-*.ttf	-text -diff
-*.otf	-text -diff
-*.woff	-text -diff
-*.woff2	-text -diff
+*.webp	-text -diff -merge
+*.png	-text -diff -merge
+*.gif	-text -diff -merge
+*.jpg	-text -diff -merge
+*.jpeg	-text -diff -merge
+*.ttf	-text -diff -merge
+*.otf	-text -diff -merge
+*.woff	-text -diff -merge
+*.woff2	-text -diff -merge
