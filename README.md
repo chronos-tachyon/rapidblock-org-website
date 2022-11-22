@@ -1,9 +1,9 @@
 # rapidblock-org-website
 
-[This Git repository](https://github.com/chronos-tachyon/rapidblock-org-website)
+[This Git repository](https://github.com/rapidblock-org/website)
 contains the website assets for [rapidblock.org](https://rapidblock.org/).
 
 Please see the other Git repositories for the RapidBlock Project:
 
-* [chronos-tachyon/rapidblock](https://github.com/chronos-tachyon/rapidblock) — the source code
-* [chronos-tachyon/apt-rapidblock](https://github.com/chronos-tachyon/apt-rapidblock) — APT repository maintenance scripts
+* [rapidblock-org/rapidblock](https://github.com/rapidblock-org/rapidblock) — the source code
+* [rapidblock-org/apt](https://github.com/rapidblock-org/apt) — APT repository maintenance scripts
