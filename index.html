@@ -142,7 +142,10 @@
       <section id="sec-files">
         <h2><a href="#sec-files">Files</a></h2>
         <dl>
-          <dt><a href="blocklist.json">blocklist.json</a></dt>
+          <dt>
+            <a href="blocklist.json">blocklist.json</a>
+            [<a href="blocklist.json.txt">plain text</a>]
+          </dt>
           <dd>
             The most recently generated export of the RapidBlock official
             blocklist, in <a href="/spec/v1/">RapidBlock v1 JSON format</a>.
@@ -152,8 +155,16 @@
             A cryptographic Ed25519 signature for <code>blocklist.json</code>.
           </dd>
           <dt>
+            <a href="blocklist.json.diff">blocklist.json.diff</a>
+            [<a href="blocklist.json.diff.txt">plain text</a>]
+          </dt>
+          <dd>
+            The most recent batch of changes to the
+            <code>blocklist.json</code> file, in Unified Diff format.
+          </dd>
+          <dt>
             <a href="blocked_domains.csv">blocked_domains.csv</a>
-            [<a href="blocked_domains.txt">plain text</a>]
+            [<a href="blocked_domains.csv.txt">plain text</a>]
           </dt>
           <dd>
             The most recently generated export of the RapidBlock official
@@ -163,6 +174,14 @@
           <dt><a href="blocked_domains.csv.sig">blocked_domains.csv.sig</a></dt>
           <dd>
             A cryptographic Ed25519 signature for <code>blocked_domains.csv</code>.
+          </dd>
+          <dt>
+            <a href="blocked_domains.csv.diff">blocked_domains.csv.diff</a>
+            [<a href="blocked_domains.csv.diff.txt">plain text</a>]
+          </dt>
+          <dd>
+            The most recent batch of changes to the
+            <code>blocked_domains.csv</code> file, in Unified Diff format.
           </dd>
           <dt><a href="rapidblock.pub">rapidblock.pub</a></dt>
           <dd>
