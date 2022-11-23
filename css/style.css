@@ -334,6 +334,30 @@ p:hover > .hoverlink {
 }
 
 #copyright {
+  display: grid;
+  gap: 8px;
+  grid-template-rows: min-content;
+  grid-template-columns: min-content auto;
+  grid-template-areas: "logo text";
+  background: var(--header-background);
+  color: var(--header-color);
+}
+
+#copyright-cclogo {
+  grid-area: logo;
+  width: 88px;
+  height: 31px;
+}
+
+#copyright-cclogo img {
+  width: 88px;
+  height: 31px;
+  border: none;
+}
+
+#copyright-text {
+  grid-area: text;
+  align-self: center;
   font-style: italic;
 }
 
