@@ -4,6 +4,11 @@
 *.css	text=auto diff=css
 *.js	text=auto
 *.svg	text=auto
+*.txt	text eol=crlf
+*.pub	text eol=crlf
+*.sig	text eol=crlf
+*.json	text eol=crlf
+*.csv	text eol=crlf
 *.webp	-text -diff -merge
 *.png	-text -diff -merge
 *.gif	-text -diff -merge

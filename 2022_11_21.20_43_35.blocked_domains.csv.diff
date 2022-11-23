@@ -1,0 +1,138 @@
+--- 2022_11_21.20_18_33.blocked_domains.csv	2022-11-21 12:18:33.452244466 -0800
++++ 2022_11_21.20_43_35.blocked_domains.csv	2022-11-21 12:43:35.792404036 -0800
+@@ -1,16 +1,28 @@
+ ryona.agency
+ gab.ai
++search.fedi.app
++rakket.app
+ carrot.army
++hentai.baby
++sneak.berlin
+ pleroma.nobodyhasthe.biz
+ preteengirls.biz
++milker.cafe
++seal.cafe
+ sleepy.cafe
+ kiwifarms.cc
+ rdrama.cc
++shortstackran.ch
++hunk.city
++newjack.city
+ cawfee.club
+ cliterati.club
+ eveningzoo.club
++mstdn.foxfam.club
++social.foxfam.club
+ gameliberty.club
+ gendercritical.club
++glowers.club
+ gorf.club
+ take.iteasy.club
+ leafposter.club
+@@ -18,8 +30,12 @@
+ mugicha.club
+ sealion.club
+ shitposter.club
++10minutepleroma.com
++crypto-group-buy.com
+ detroitriotcity.com
+ djitter.com
++freespeech.firedragonstudios.com
++fr13nd5.com
+ freeatlantis.com
+ freecumextremist.com
+ freespeechextremist.com
+@@ -28,19 +44,28 @@
+ gabfed.com
+ gleasonator.com
+ kazvam.com
++liberdon.com
+ noagendasocial.com
+ fedi.pawlicker.com
++social.quodverum.com
+ sinblr.com
++skippers-bin.com
+ solagg.com
++socnet.supes.com
+ truthsocial.com
++wagesofsinisdeath.com
+ aria.company
+ nicecrew.digital
+ loli.estate
+ exited.eu
+ gab.sleeck.eu
++degenerates.fail
+ freefedifollowers.ga
++pleroma.rareome.ga
++gearlandia.haus
+ journa.host
+ bodybuilding.im
++truthsocial.co.in
+ letsalllovela.in
+ gab.io
+ kiwifarms.is
+@@ -49,12 +74,18 @@
+ smuglo.li
+ gs.smuglo.li
+ pl.smuglo.li
++catgirl.life
+ gitmo.life
++weedis.life
+ fedi.intkos.link
+ chudbuds.lol
++toot.love
++youjo.love
++bsd.moe
+ novoa.nagoya
+ social.au2pb.net
+ baraag.net
++kiwifarms.net
+ pleroma.kiwifarms.net
+ social.lovingexpressions.net
+ npf.mlpol.net
+@@ -66,12 +97,18 @@
+ varishangout.net
+ wrongthink.net
+ rapefeminists.network
++bitcoinhackers.org
++eientei.org
+ glindr.org
++paypig.org
+ qoto.org
+ bikeshed.party
+ 101010.pl
+ twtr.plus
++ligma.pro
++posting.lolicon.rocks
+ cum.salon
++pedo.school
+ mastodon.se
+ husk.site
+ 2ndamendment.social
+@@ -79,16 +116,26 @@
+ brighteon.social
+ civiq.social
+ home.social
++humblr.social
+ iddqd.social
++nazi.social
++pooper.social
+ privex.social
+ sneed.social
+ yggdrasil.social
+ gendercritical.space
++nnia.space
+ unsafe.space
+ bae.st
++masochi.st
+ poa.st
++d-fens.systems
++honkwerx.tech
+ fedichive.tk
++raplst.town
+ mastodonapp.uk
++anime.website
++jaeger.website
+ beefyboys.win
+ gab.polaris-1.work
+ lolis.world
