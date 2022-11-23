@@ -4,7 +4,8 @@
 *.css	text=auto diff=css
 *.js	text=auto
 *.svg	text=auto
-*.txt	text eol=crlf
+*.diff	text=auto
+*.txt	text=auto
 *.pub	text eol=crlf
 *.sig	text eol=crlf
 *.json	text eol=crlf
