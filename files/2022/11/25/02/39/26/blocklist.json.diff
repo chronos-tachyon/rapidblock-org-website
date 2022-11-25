@@ -1,0 +1,53 @@
+--- files/2022/11/23/21/24/43/blocklist.json	2022-11-24 18:33:27.461378879 -0800
++++ files/2022/11/25/02/39/26/blocklist.json	2022-11-24 18:39:26.000000000 -0800
+@@ -1,6 +1,6 @@
+ {
+   "@spec": "https://rapidblock.org/spec/v1/",
+-  "publishedAt": "2022-11-23T21:24:42.875202797Z",
++  "publishedAt": "2022-11-25T02:39:26.729640502Z",
+   "blocks": {
+     "101010.pl": {
+       "isBlocked": true,
+@@ -931,12 +931,16 @@
+     },
+     "noagendasocial.com": {
+       "isBlocked": true,
+-      "reason": "freeze peach",
++      "reason": "racism, misogyny, transphobia",
+       "tags": [
+-        "harassment"
++        "antisemitism",
++        "harassment",
++        "misogyny",
++        "queerphobia",
++        "racism"
+       ],
+-      "dateRequested": "2022-11-16T00:00:00Z",
+-      "dateDecided": "2022-11-16T00:00:00Z"
++      "dateRequested": "2022-11-19T00:00:00Z",
++      "dateDecided": "2022-11-19T00:00:00Z"
+     },
+     "novoa.nagoya": {
+       "isBlocked": true,
+@@ -996,6 +1000,21 @@
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
++    "pl.anon-kenkai.com": {
++      "isBlocked": true,
++      "reason": "🐸",
++      "tags": [
++        "ableism",
++        "antisemitism",
++        "harassment",
++        "misogyny",
++        "nationalism",
++        "queerphobia",
++        "racism"
++      ],
++      "dateRequested": "2022-11-24T00:00:00Z",
++      "dateDecided": "2022-11-24T00:00:00Z"
++    },
+     "pl.smuglo.li": {
+       "isBlocked": true,
+       "reason": "loli",
