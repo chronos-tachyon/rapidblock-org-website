@@ -1,0 +1,74 @@
+--- files/2022/11/25/02/39/26/blocklist.json	2022-11-24 18:39:26.000000000 -0800
++++ files/2022/11/26/19/54/18/blocklist.json	2022-11-26 11:54:18.000000000 -0800
+@@ -1,6 +1,6 @@
+ {
+   "@spec": "https://rapidblock.org/spec/v1/",
+-  "publishedAt": "2022-11-25T02:39:26.729640502Z",
++  "publishedAt": "2022-11-26T19:54:18.781129258Z",
+   "blocks": {
+     "101010.pl": {
+       "isBlocked": true,
+@@ -87,6 +87,15 @@
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
++    "berserker.town": {
++      "isBlocked": true,
++      "reason": "freeze peach",
++      "tags": [
++        "harassment"
++      ],
++      "dateRequested": "2022-11-26T00:00:00Z",
++      "dateDecided": "2022-11-26T00:00:00Z"
++    },
+     "bikeshed.party": {
+       "isBlocked": true,
+       "reason": "freeze peach",
+@@ -545,6 +554,31 @@
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
++    "genderheretics.xyz": {
++      "isBlocked": true,
++      "reason": "transphobia",
++      "tags": [
++        "harassment",
++        "queerphobia"
++      ],
++      "dateRequested": "2022-11-26T00:00:00Z",
++      "dateDecided": "2022-11-26T00:00:00Z"
++    },
++    "geofront.rocks": {
++      "isBlocked": true,
++      "reason": "🐸",
++      "tags": [
++        "ableism",
++        "antisemitism",
++        "harassment",
++        "misogyny",
++        "nationalism",
++        "queerphobia",
++        "racism"
++      ],
++      "dateRequested": "2022-11-26T00:00:00Z",
++      "dateDecided": "2022-11-26T00:00:00Z"
++    },
+     "gitmo.life": {
+       "isBlocked": true,
+       "reason": "freeze peach",
+@@ -744,6 +778,15 @@
+       "dateRequested": "2022-11-21T00:00:00Z",
+       "dateDecided": "2022-11-21T00:00:00Z"
+     },
++    "koyu.space": {
++      "isBlocked": true,
++      "reason": "targeted harassment",
++      "tags": [
++        "harassment"
++      ],
++      "dateRequested": "2022-11-26T00:00:00Z",
++      "dateDecided": "2022-11-26T00:00:00Z"
++    },
+     "leafposter.club": {
+       "isBlocked": true,
+       "reason": "🐸",
