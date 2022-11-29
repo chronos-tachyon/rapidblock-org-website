@@ -1,0 +1,48 @@
+--- files/2022/11/29/21/30/09/blocklist.json	2022-11-29 13:30:09.000000000 -0800
++++ files/2022/11/29/22/05/08/blocklist.json	2022-11-29 14:05:08.000000000 -0800
+@@ -1,6 +1,6 @@
+ {
+   "@spec": "https://rapidblock.org/spec/v1/",
+-  "publishedAt": "2022-11-29T21:30:09.425938195Z",
++  "publishedAt": "2022-11-29T22:05:08.092338293Z",
+   "blocks": {
+     "101010.pl": {
+       "isBlocked": true,
+@@ -365,12 +365,12 @@
+     },
+     "freefedifollowers.ga": {
+       "isBlocked": true,
+-      "reason": "top100",
++      "reason": "follow spam, top100",
+       "tags": [
+-        "harassment"
++        "spam"
+       ],
+-      "dateRequested": "2022-11-21T00:00:00Z",
+-      "dateDecided": "2022-11-21T00:00:00Z"
++      "dateRequested": "2022-11-16T00:00:00Z",
++      "dateDecided": "2022-11-16T00:00:00Z"
+     },
+     "freespeech.firedragonstudios.com": {
+       "isBlocked": true,
+@@ -974,12 +974,16 @@
+     },
+     "noagendasocial.com": {
+       "isBlocked": true,
+-      "reason": "freeze peach",
++      "reason": "racism, misogyny, transphobia",
+       "tags": [
+-        "harassment"
++        "antisemitism",
++        "harassment",
++        "misogyny",
++        "queerphobia",
++        "racism"
+       ],
+-      "dateRequested": "2022-11-16T00:00:00Z",
+-      "dateDecided": "2022-11-16T00:00:00Z"
++      "dateRequested": "2022-11-19T00:00:00Z",
++      "dateDecided": "2022-11-19T00:00:00Z"
+     },
+     "novoa.nagoya": {
+       "isBlocked": true,
