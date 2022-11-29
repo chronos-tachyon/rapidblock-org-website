@@ -1,0 +1,64 @@
+--- files/2022/11/26/19/54/18/blocklist.json	2022-11-26 11:54:18.000000000 -0800
++++ files/2022/11/29/21/30/09/blocklist.json	2022-11-29 13:30:09.000000000 -0800
+@@ -1,6 +1,6 @@
+ {
+   "@spec": "https://rapidblock.org/spec/v1/",
+-  "publishedAt": "2022-11-26T19:54:18.781129258Z",
++  "publishedAt": "2022-11-29T21:30:09.425938195Z",
+   "blocks": {
+     "101010.pl": {
+       "isBlocked": true,
+@@ -365,12 +365,12 @@
+     },
+     "freefedifollowers.ga": {
+       "isBlocked": true,
+-      "reason": "follow spam",
++      "reason": "top100",
+       "tags": [
+-        "spam"
++        "harassment"
+       ],
+-      "dateRequested": "2022-11-16T00:00:00Z",
+-      "dateDecided": "2022-11-16T00:00:00Z"
++      "dateRequested": "2022-11-21T00:00:00Z",
++      "dateDecided": "2022-11-21T00:00:00Z"
+     },
+     "freespeech.firedragonstudios.com": {
+       "isBlocked": true,
+@@ -974,16 +974,12 @@
+     },
+     "noagendasocial.com": {
+       "isBlocked": true,
+-      "reason": "racism, misogyny, transphobia",
++      "reason": "freeze peach",
+       "tags": [
+-        "antisemitism",
+-        "harassment",
+-        "misogyny",
+-        "queerphobia",
+-        "racism"
++        "harassment"
+       ],
+-      "dateRequested": "2022-11-19T00:00:00Z",
+-      "dateDecided": "2022-11-19T00:00:00Z"
++      "dateRequested": "2022-11-16T00:00:00Z",
++      "dateDecided": "2022-11-16T00:00:00Z"
+     },
+     "novoa.nagoya": {
+       "isBlocked": true,
+@@ -1099,6 +1095,15 @@
+       "dateRequested": "2022-11-21T00:00:00Z",
+       "dateDecided": "2022-11-21T00:00:00Z"
+     },
++    "plma.plus.st": {
++      "isBlocked": true,
++      "reason": "targeted harassment, freeze peach, lots of crossover threads with KF-associated rdrama.cc",
++      "tags": [
++        "harassment"
++      ],
++      "dateRequested": "2022-11-29T00:00:00Z",
++      "dateDecided": "2022-11-29T00:00:00Z"
++    },
+     "poa.st": {
+       "isBlocked": true,
+       "reason": "🐸",
