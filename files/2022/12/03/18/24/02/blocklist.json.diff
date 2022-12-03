@@ -1,0 +1,58 @@
+--- files/2022/11/29/22/05/08/blocklist.json	2022-11-29 14:05:08.000000000 -0800
++++ files/2022/12/03/18/24/02/blocklist.json	2022-12-03 10:24:02.000000000 -0800
+@@ -1,6 +1,6 @@
+ {
+   "@spec": "https://rapidblock.org/spec/v1/",
+-  "publishedAt": "2022-11-29T22:05:08.092338293Z",
++  "publishedAt": "2022-12-03T18:24:02.958919004Z",
+   "blocks": {
+     "101010.pl": {
+       "isBlocked": true,
+@@ -31,6 +31,15 @@
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
++    "activitypub-troll.cf": {
++      "isBlocked": true,
++      "reason": "denial of service bot that exploits bugs in ActivityPub software",
++      "tags": [
++        "malware"
++      ],
++      "dateRequested": "2022-12-03T00:00:00Z",
++      "dateDecided": "2022-12-03T00:00:00Z"
++    },
+     "animalliberation.social": {
+       "isBlocked": true,
+       "reason": "TERF",
+@@ -891,6 +900,15 @@
+       "dateRequested": "2022-11-21T00:00:00Z",
+       "dateDecided": "2022-11-21T00:00:00Z"
+     },
++    "misskey-forkbomb.cf": {
++      "isBlocked": true,
++      "reason": "denial of service bot that exploits bugs in ActivityPub software",
++      "tags": [
++        "malware"
++      ],
++      "dateRequested": "2022-12-03T00:00:00Z",
++      "dateDecided": "2022-12-03T00:00:00Z"
++    },
+     "mstdn.foxfam.club": {
+       "isBlocked": true,
+       "reason": "top100",
+@@ -1241,6 +1259,15 @@
+       "dateRequested": "2022-11-22T00:00:00Z",
+       "dateDecided": "2022-11-22T00:00:00Z"
+     },
++    "repl.co": {
++      "isBlocked": true,
++      "reason": "denial of service bot that exploits bugs in ActivityPub software",
++      "tags": [
++        "malware"
++      ],
++      "dateRequested": "2022-12-03T00:00:00Z",
++      "dateDecided": "2022-12-03T00:00:00Z"
++    },
+     "ryona.agency": {
+       "isBlocked": true,
+       "reason": "top100",

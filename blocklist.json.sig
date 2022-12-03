@@ -1,1 +1,1 @@
-files/2022/11/29/22/05/08/blocklist.json.sig
+files/2022/12/03/18/24/02/blocklist.json.sig
