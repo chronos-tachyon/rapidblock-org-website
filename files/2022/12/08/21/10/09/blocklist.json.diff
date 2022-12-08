@@ -1,0 +1,26 @@
+--- files/2022/12/03/18/24/02/blocklist.json	2022-12-03 10:24:02.000000000 -0800
++++ files/2022/12/08/21/10/09/blocklist.json	2022-12-08 13:10:09.000000000 -0800
+@@ -1,6 +1,6 @@
+ {
+   "@spec": "https://rapidblock.org/spec/v1/",
+-  "publishedAt": "2022-12-03T18:24:02.958919004Z",
++  "publishedAt": "2022-12-08T21:10:09.793001249Z",
+   "blocks": {
+     "101010.pl": {
+       "isBlocked": true,
+@@ -807,12 +807,9 @@
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
+     "letsalllovela.in": {
+-      "isBlocked": true,
+-      "reason": "block detection",
+-      "tags": [
+-        "harassment",
+-        "privacy"
+-      ],
++      "isBlocked": false,
++      "reason": "",
++      "tags": [],
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
