@@ -1,0 +1,26 @@
+--- files/2022/12/16/18/40/19/blocklist.json	2022-12-16 10:40:19.000000000 -0800
++++ files/2022/12/16/20/49/55/blocklist.json	2022-12-16 12:49:55.000000000 -0800
+@@ -1,6 +1,6 @@
+ {
+   "@spec": "https://rapidblock.org/spec/v1/",
+-  "publishedAt": "2022-12-16T18:40:19.365697102Z",
++  "publishedAt": "2022-12-16T20:49:55.566868001Z",
+   "blocks": {
+     "101010.pl": {
+       "isBlocked": true,
+@@ -215,6 +215,15 @@
+       "dateRequested": "2022-11-21T00:00:00Z",
+       "dateDecided": "2022-11-21T00:00:00Z"
+     },
++    "cryptotalks.social": {
++      "isBlocked": true,
++      "reason": "cryptocurrency",
++      "tags": [
++        "fraud"
++      ],
++      "dateRequested": "2022-12-16T00:00:00Z",
++      "dateDecided": "2022-12-16T00:00:00Z"
++    },
+     "cum.salon": {
+       "isBlocked": true,
+       "reason": "top100",
