@@ -1,0 +1,28 @@
+--- files/2022/12/16/17/46/38/blocklist.json	2022-12-16 09:46:38.000000000 -0800
++++ files/2022/12/16/18/40/19/blocklist.json	2022-12-16 10:40:19.000000000 -0800
+@@ -1,6 +1,6 @@
+ {
+   "@spec": "https://rapidblock.org/spec/v1/",
+-  "publishedAt": "2022-12-16T17:46:38.548858106Z",
++  "publishedAt": "2022-12-16T18:40:19.365697102Z",
+   "blocks": {
+     "101010.pl": {
+       "isBlocked": true,
+@@ -275,6 +275,17 @@
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
++    "disqordia.space": {
++      "isBlocked": true,
++      "reason": "racist harassment, spamming FediBlock hashtag with bogus reports",
++      "tags": [
++        "harassment",
++        "racism",
++        "spam"
++      ],
++      "dateRequested": "2022-12-16T00:00:00Z",
++      "dateDecided": "2022-12-16T00:00:00Z"
++    },
+     "djitter.com": {
+       "isBlocked": true,
+       "reason": "🐸",

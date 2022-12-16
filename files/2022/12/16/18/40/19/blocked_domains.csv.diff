@@ -1,0 +1,10 @@
+--- files/2022/12/16/17/46/38/blocked_domains.csv	2022-12-16 09:46:38.000000000 -0800
++++ files/2022/12/16/18/40/19/blocked_domains.csv	2022-12-16 10:40:19.000000000 -0800
+@@ -131,6 +131,7 @@
+ privex.social
+ sneed.social
+ yggdrasil.social
++disqordia.space
+ gendercritical.space
+ koyu.space
+ nnia.space
