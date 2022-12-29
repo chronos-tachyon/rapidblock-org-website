@@ -1,0 +1,61 @@
+--- files/2022/12/16/20/49/55/blocked_domains.csv	2022-12-16 12:49:55.000000000 -0800
++++ files/2022/12/29/18/40/02/blocked_domains.csv	2022-12-29 10:40:02.000000000 -0800
+@@ -17,6 +17,7 @@
+ shortstackran.ch
+ hunk.city
+ newjack.city
++sperg.city
+ cawfee.club
+ cliterati.club
+ eveningzoo.club
+@@ -49,6 +50,7 @@
+ gleasonator.com
+ kazvam.com
+ liberdon.com
++mastinator.com
+ noagendasocial.com
+ fedi.pawlicker.com
+ social.quodverum.com
+@@ -59,6 +61,7 @@
+ truthsocial.com
+ wagesofsinisdeath.com
+ aria.company
++tkammer.de
+ nicecrew.digital
+ loli.estate
+ exited.eu
+@@ -66,6 +69,7 @@
+ degenerates.fail
+ freefedifollowers.ga
+ pleroma.rareome.ga
++zztails.gay
+ gearlandia.haus
+ journa.host
+ mstdn.id
+@@ -104,7 +108,10 @@
+ varishangout.net
+ wrongthink.net
+ rapefeminists.network
++scots.network
++starnix.network
+ bitcoinhackers.org
++boyter.org
+ eientei.org
+ glindr.org
+ paypig.org
+@@ -118,6 +125,7 @@
+ cum.salon
+ pedo.school
+ mastodon.se
++gangstalking.services
+ husk.site
+ 2ndamendment.social
+ animalliberation.social
+@@ -151,6 +159,7 @@
+ jaeger.website
+ beefyboys.win
+ gab.polaris-1.work
++durst.world
+ lolis.world
+ freezepeach.xyz
+ gabble.xyz

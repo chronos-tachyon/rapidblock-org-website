@@ -1,0 +1,196 @@
+--- files/2022/12/16/20/49/55/blocklist.json	2022-12-16 12:49:55.000000000 -0800
++++ files/2022/12/29/18/40/02/blocklist.json	2022-12-29 10:40:02.000000000 -0800
+@@ -1,6 +1,6 @@
+ {
+   "@spec": "https://rapidblock.org/spec/v1/",
+-  "publishedAt": "2022-12-16T20:49:55.566868001Z",
++  "publishedAt": "2022-12-29T18:40:02.065805293Z",
+   "blocks": {
+     "101010.pl": {
+       "isBlocked": true,
+@@ -133,6 +133,15 @@
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
++    "boyter.org": {
++      "isBlocked": true,
++      "reason": "non-consentual content scraping",
++      "tags": [
++        "privacy"
++      ],
++      "dateRequested": "2022-12-27T00:00:00Z",
++      "dateDecided": "2022-12-27T00:00:00Z"
++    },
+     "brighteon.social": {
+       "isBlocked": true,
+       "reason": "top100",
+@@ -304,6 +313,20 @@
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
++    "durst.world": {
++      "isBlocked": true,
++      "reason": "associated with zztails.gay",
++      "tags": [
++        "ableism",
++        "antisemitism",
++        "harassment",
++        "misogyny",
++        "queerphobia",
++        "racism"
++      ],
++      "dateRequested": "2022-12-23T00:00:00Z",
++      "dateDecided": "2022-12-23T00:00:00Z"
++    },
+     "eientei.org": {
+       "isBlocked": true,
+       "reason": "top100",
+@@ -358,7 +381,7 @@
+     },
+     "fedichive.tk": {
+       "isBlocked": true,
+-      "reason": "content scraping",
++      "reason": "non-consentual content scraping",
+       "tags": [
+         "privacy"
+       ],
+@@ -541,6 +564,16 @@
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
++    "gangstalking.services": {
++      "isBlocked": true,
++      "reason": "non-consentual content scraping, ties to ryona.agency and 🐸🥝",
++      "tags": [
++        "harassment",
++        "privacy"
++      ],
++      "dateRequested": "2022-12-28T00:00:00Z",
++      "dateDecided": "2022-12-28T00:00:00Z"
++    },
+     "gasthe.lgbt": {
+       "isBlocked": true,
+       "reason": "🐸",
+@@ -884,6 +917,15 @@
+       "dateRequested": "2022-11-21T00:00:00Z",
+       "dateDecided": "2022-11-21T00:00:00Z"
+     },
++    "mastinator.com": {
++      "isBlocked": true,
++      "reason": "non-consentual content scraping",
++      "tags": [
++        "privacy"
++      ],
++      "dateRequested": "2022-12-27T00:00:00Z",
++      "dateDecided": "2022-12-27T00:00:00Z"
++    },
+     "mastodon.se": {
+       "isBlocked": true,
+       "reason": "antisemitism",
+@@ -1291,6 +1333,16 @@
+       "dateRequested": "2022-11-21T00:00:00Z",
+       "dateDecided": "2022-11-21T00:00:00Z"
+     },
++    "scots.network": {
++      "isBlocked": true,
++      "reason": "queerphobia, pro hate speech policy",
++      "tags": [
++        "harassment",
++        "queerphobia"
++      ],
++      "dateRequested": "2022-12-28T00:00:00Z",
++      "dateDecided": "2022-12-28T00:00:00Z"
++    },
+     "seal.cafe": {
+       "isBlocked": true,
+       "reason": "top100",
+@@ -1472,6 +1524,20 @@
+       "dateRequested": "2022-11-21T00:00:00Z",
+       "dateDecided": "2022-11-21T00:00:00Z"
+     },
++    "sperg.city": {
++      "isBlocked": true,
++      "reason": "harassment, hate speech, instance name is ableist slur with 🐸🥝 associations",
++      "tags": [
++        "ableism",
++        "antisemitism",
++        "harassment",
++        "misogyny",
++        "queerphobia",
++        "racism"
++      ],
++      "dateRequested": "2022-12-23T00:00:00Z",
++      "dateDecided": "2022-12-23T00:00:00Z"
++    },
+     "spinster.xyz": {
+       "isBlocked": true,
+       "reason": "TERF",
+@@ -1482,6 +1548,20 @@
+       "dateRequested": "2022-11-16T00:00:00Z",
+       "dateDecided": "2022-11-16T00:00:00Z"
+     },
++    "starnix.network": {
++      "isBlocked": true,
++      "reason": "freeze peach (considers harassment okay since harassed users can block each mosquito)",
++      "tags": [
++        "ableism",
++        "antisemitism",
++        "harassment",
++        "misogyny",
++        "queerphobia",
++        "racism"
++      ],
++      "dateRequested": "2022-12-23T00:00:00Z",
++      "dateDecided": "2022-12-23T00:00:00Z"
++    },
+     "take.iteasy.club": {
+       "isBlocked": true,
+       "reason": "freeze peach",
+@@ -1500,6 +1580,17 @@
+       "dateRequested": "2022-11-07T00:00:00Z",
+       "dateDecided": "2022-11-08T00:00:00Z"
+     },
++    "tkammer.de": {
++      "isBlocked": true,
++      "reason": "misogyny, transphobia",
++      "tags": [
++        "harassment",
++        "misogyny",
++        "queerphobia"
++      ],
++      "dateRequested": "2022-12-28T00:00:00Z",
++      "dateDecided": "2022-12-28T00:00:00Z"
++    },
+     "toot.love": {
+       "isBlocked": true,
+       "reason": "top100",
+@@ -1539,7 +1630,7 @@
+     },
+     "twtr.plus": {
+       "isBlocked": true,
+-      "reason": "content scraping",
++      "reason": "non-consentual content scraping",
+       "tags": [
+         "privacy"
+       ],
+@@ -1610,6 +1701,20 @@
+       ],
+       "dateRequested": "2022-11-21T00:00:00Z",
+       "dateDecided": "2022-11-21T00:00:00Z"
++    },
++    "zztails.gay": {
++      "isBlocked": true,
++      "reason": "targeted harassment (wishing death on people), slurs of all kinds",
++      "tags": [
++        "ableism",
++        "antisemitism",
++        "harassment",
++        "misogyny",
++        "queerphobia",
++        "racism"
++      ],
++      "dateRequested": "2022-12-23T00:00:00Z",
++      "dateDecided": "2022-12-23T00:00:00Z"
+     }
+   }
+ }
